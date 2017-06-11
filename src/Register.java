@@ -61,11 +61,7 @@ public class Register {
 		//frmRegister.pack();
 		frmRegister.setBounds(100, 100, 390, 300);
 		frmRegister.setLocationRelativeTo(null);
-		/*Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		int height = screenSize.height;
-		int width = screenSize.width;
-		frmRegister.setSize(width/2, height/2);*/
-		//frmRegister.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		SpringLayout springLayout = new SpringLayout();
 		frmRegister.getContentPane().setLayout(springLayout);
 		

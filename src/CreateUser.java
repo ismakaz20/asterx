@@ -9,8 +9,6 @@ import javax.swing.JLabel;
 //import javax.swing.JProgressBar;
 import javax.swing.JOptionPane;
 
-//import java.beans.PropertyChangeListener;
-//import java.beans.PropertyChangeEvent;
 public class CreateUser {
 
 	//static JProgressBar progressBar = new JProgressBar();

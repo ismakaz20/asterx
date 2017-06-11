@@ -113,11 +113,6 @@ public class AddRecord {
 			    this.limit = limit;
 			  }
 
-			  /*JTextFieldLimit(int limit, boolean upper) {
-			    super();
-			    this.limit = limit;
-			  }*/
-
 			  public void insertString(int offset, String str, AttributeSet attr) throws BadLocationException 
 			  {
 			    if (str == null)
@@ -403,20 +398,3 @@ public class AddRecord {
 		}
 	}
 }
-/*
-lblCardname);
-
-frmAddNewRecord.getContentPane().add(lblNameOnCard);
-frmAddNewRecord.getContentPane().add(textField_1);
-
-
-frmAddNewRecord.getContentPane().add(lblExpiryDate);
-frmAddNewRecord.getContentPane().add(comboBox_1);
-frmAddNewRecord.getContentPane().add(comboBox_2);
-
-frmAddNewRecord.getContentPane().add(lblCvv);
-frmAddNewRecord.getContentPane().add(formattedTextField);
-
-frmAddNewRecord.getContentPane().add(lblPin);
-frmAddNewRecord.getContentPane().add(formattedTextField_1);
-*/

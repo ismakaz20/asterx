@@ -79,7 +79,6 @@ public class Welcome {
 		JLabel lblUsername = new JLabel("Username");
 		lblUsername.setBounds(64, 70, 86, 14);
 		frame.getContentPane().add(lblUsername);
-		//frame.setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{textField, passwordField, btnLogin, btnBack, frame.getContentPane(), lblUsername, lblMasterPassword}));
 		
 		JButton btnLogin = new JButton("LogIn");
 		btnLogin.setBounds(159, 162, 89, 23);
@@ -113,7 +112,6 @@ public class Welcome {
 			}
 		});
 		frame.getContentPane().add(btnBack);
-		//frame.getContentPane().setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{textField, passwordField, btnLogin, btnBack, lblUsername, lblMasterPassword}));
 	}
 	
 	public void logInClicked() //throws Exception
