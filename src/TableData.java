@@ -18,7 +18,7 @@ class TableData {
 		try
 		{
 			//Class.forName("oracle.jdbc.driver.OracleDriver");
-			///con = DriverManager.getConnection("jdbc:oracle:thin:"+uname+"/"+password+"@localhost",uname,password);
+			//con = DriverManager.getConnection("jdbc:oracle:thin:"+uname+"/"+password+"@localhost",uname,password);
 			st = con.createStatement();
 			rs = st.executeQuery("select * from result");
 			
